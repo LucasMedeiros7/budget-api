@@ -1,10 +1,11 @@
 import express from 'express';
-import { userRoutes } from './routes';
+import { productsRoutes, userRoutes } from './routes';
 
 const app = express();
 
 app.use(express.json());
 
 app.use(userRoutes);
+app.use(productsRoutes);
 
 export { app };
