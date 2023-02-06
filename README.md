@@ -9,7 +9,7 @@ Dados dos usuários e produtos buscados no mockend disponibilizado
 
 ## Desenvolvimento
 
-A metodologia de desenvolvimento utilizada foi TDD (Test Driven Development) e a implementação dos testes automatizados foi realizada com a ferramenta [Vitest]([Test API Reference | Vitest](https://vitest.dev/api/)). Além disso, o [Typescript]([TypeScript: JavaScript With Syntax For Types. (typescriptlang.org)](https://www.typescriptlang.org/))  foi utilizado para contribuir para uma maior legibilidade e facilidade de manutenção do código. Também foi utilizado o [Node-Cache]([node-cache/node-cache: a node internal (in-memory) caching module (github.com)](https://github.com/node-cache/node-cache))para cachear as requisições feitas à API, atualizando a cada determinado tempo e evitando excesso de chamadas à API em curto espaço de tempo.
+A metodologia de desenvolvimento utilizada foi TDD (Test Driven Development) e a implementação dos testes automatizados foi realizada com a ferramenta [Vitest](https://vitest.dev/api/). Além disso, o [Typescript](https://www.typescriptlang.org/) foi utilizado para contribuir para uma maior legibilidade e facilidade de manutenção do código. Também foi utilizado o [Node-Cache](https://github.com/node-cache/node-cache) para cachear as requisições feitas à API, atualizando a cada determinado tempo e evitando excesso de chamadas à API em curto espaço de tempo.
 
 ## Rodando o projeto localmente
 
