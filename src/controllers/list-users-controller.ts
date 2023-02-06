@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { fetchUsers } from '../services/api/fetch-users';
+import { fetchUsers } from '../services/fetch-users';
 
 async function ListUsersController(
   _request: Request,

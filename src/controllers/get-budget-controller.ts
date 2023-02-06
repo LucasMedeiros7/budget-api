@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { fetchProducts } from '../services/api/fetch-products';
-import { fetchUsers } from '../services/api/fetch-users';
+import { fetchProducts } from '../services/fetch-products';
+import { fetchUsers } from '../services/fetch-users';
 import { calculateBudget } from '../utils/calculate-budget';
 
 async function GetBudgetController(

@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { fetchProducts } from '../services/api/fetch-products';
+import { fetchProducts } from '../services/fetch-products';
 
 async function ListProductsController(
   _request: Request,

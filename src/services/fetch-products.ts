@@ -1,6 +1,6 @@
 import { api } from './api';
-import { cacheUtil } from '../../utils/cache-util';
-import { Product } from '../../models/product';
+import { cacheUtil } from '../utils/cache-util';
+import { Product } from '../models/product';
 
 interface FetchProductsResponse {
   products: Product[];
