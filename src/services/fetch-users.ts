@@ -1,6 +1,6 @@
 import { api } from './api';
 import { cacheUtil } from '../utils/cache-util';
-import { User } from '../models/user';
+import { User } from '../models';
 
 interface FetchUsersResponse {
   users: User[];

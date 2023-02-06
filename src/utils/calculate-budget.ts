@@ -1,5 +1,5 @@
-import { Product } from '../models/product';
-import { User } from '../models/user';
+import { Product } from '../models';
+import { User } from '../models';
 
 export function calculateBudget(user: User, products: Product[]): Number {
   const budget = products.reduce((sum, product) => {
