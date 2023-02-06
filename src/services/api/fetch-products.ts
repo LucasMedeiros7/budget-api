@@ -1,11 +1,6 @@
 import { api } from './api';
 import { cacheUtil } from '../../utils/cache-util';
-
-interface Product {
-  id: Number;
-  name: String;
-  price: Number;
-}
+import { Product } from '../../models/product';
 
 interface FetchProductsResponse {
   products: Product[];
