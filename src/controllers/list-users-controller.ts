@@ -1,7 +1,10 @@
 import { Request, Response } from 'express';
 import { fetchUsers } from '../services/api/fetch-users';
 
-async function ListUsersController(_request: Request, response: Response) {
+async function ListUsersController(
+  _request: Request,
+  response: Response
+): Promise<Response> {
   try {
     const users = await fetchUsers();
     return response.json(users);
