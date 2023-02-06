@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { cacheUtil } from './cache-util';
+import { cacheUtil } from '../../src/utils/cache-util';
 
 describe('Cache util', () => {
   it('should persist value in cache', () => {

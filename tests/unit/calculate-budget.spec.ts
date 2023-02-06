@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import { Product } from '../models/product';
-import { User } from '../models/user';
-import { calculateBudget } from './calculate-budget';
+import { Product } from '../../src/models/product';
+import { User } from '../../src/models/user';
+import { calculateBudget } from '../../src/utils/calculate-budget';
 
 describe('Calculate Budget', () => {
   it('should calculates budget correctly', () => {

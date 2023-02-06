@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { fetchUsers } from './fetch-users';
+import { fetchUsers } from '../../src/services/api/fetch-users';
 
 describe('Fetch Users', () => {
   it('Should be able fetch all users', async () => {
