@@ -3,8 +3,8 @@ import { User } from '../models';
 
 export function calculateBudget(user: User, products: Product[]): Number {
   const budget = products.reduce((sum, product) => {
-    const tax = user.tax / 100;
-    const productPrice = product.price + (product.price * tax) / 100;
+    const tax = (product.price * user.tax) / 100;
+    const productPrice = product.price + tax;
     return sum + productPrice;
   }, 0);
 

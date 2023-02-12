@@ -25,6 +25,6 @@ describe('Calculate Budget', () => {
     ];
 
     const budget = calculateBudget(user, products);
-    expect(budget).toBe(3503);
+    expect(budget).toBe(3885);
   });
 });
