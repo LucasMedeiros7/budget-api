@@ -8,7 +8,7 @@ describe('Calculate Budget', () => {
     const user: User = {
       id: 1,
       name: 'John Doe',
-      tax: 11,
+      tax: 10,
     };
 
     const products: Product[] = [
@@ -25,6 +25,6 @@ describe('Calculate Budget', () => {
     ];
 
     const budget = calculateBudget(user, products);
-    expect(budget).toBe(3885);
+    expect(budget).toBe(350);
   });
 });
